@@ -1,0 +1,285 @@
+---
+title: 'PRACTICA 2: LIMPIEZA Y VALIDACI?N DE LOS DATOS'
+author: "Max Mucha Morales"
+tuthor: "Mireia Calvo Gonzalez"
+date: '`r format(Sys.Date(),"%e de %B %Y")`'
+output:
+  html_document:
+    toc: yes
+    number_sections: yes
+    toc_depth: 2
+---
+
+```{r setup1, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r setup, include=FALSE}
+
+rm(list = ls())
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+getwd()
+options(encoding = "utf-8")
+```
+
+```{r load_libraries, include=FALSE}
+library(tidyverse)
+library(rvest)
+library(httr)
+library(xml2)
+library(jsonlite)
+library(lubridate)
+library(scales)
+library(plotly)
+
+
+```
+Realizamos el scraping a la pagina GLobal Club Soccer Ranking https://projects.fivethirtyeight.com/soccer-predictions/global-club-rankings/ donde obtendremos la clasificación mundial de clubes de fútbol actualizada al 03 de Junio del 2021.
+
+```{r, echo=TRUE}
+# Scrapeamos la web
+datos <- "https://projects.fivethirtyeight.com/global-club-soccer-rankings/" %>%
+  read_html() %>%
+  html_nodes("#all-teams-table") %>% 
+  html_table() %>% .[[1]]
+```
+
+****
+# Descripción del dataset.
+****
+
+Los datos que extraeremos son el nombre del equipo, la liga, el país, %ofensivo, % defensivo y calsificación del equipo.
+
+El objetivo limpiarlo, normalizarlo si es necesario, y establecer visualizaciones que nos permitan obtener información sobre ¿Analizar los dtos ofensivos y defensivos a nivel total?.
+
+****
+# Limpieza de datos
+****
+Luego de extraer los datos se pasar a la limpieza del mismo.
+
+# Renombramos las columnas con la primera fila
+
+```{r, echo=TRUE}
+names(datos) <- datos[1,]
+```
+
+## Quitar la primera fila, Selección de algunas columnas, Cambio de tipo de algunas columnas
+
+Estructura y formato de un dataframe
+
+```{r, echo=TRUE}
+datos <- datos %>%
+  slice(-1) 
+
+names(datos)<-c("Rank","change","team","League","country","off",
+                "def","spi")
+
+datos <- dplyr::select(datos,-change)
+
+str(datos)
+```
+
+Convertimos los atributos de estadisticas en tipo factor y numéricas.
+
+Quitamos aquellas filas que tengan muchos NA
+
+```{r, echo=TRUE}
+datos$Rank<-as.integer(datos$Rank)
+datos$team<-as.factor(datos$team)
+datos$League<-as.factor(datos$team)
+datos$country<-as.factor(datos$country)
+datos$off<-as.numeric(datos$off)
+datos$def<-as.numeric(datos$def)
+datos$spi<-as.numeric(datos$spi)
+
+str(datos)
+summary(datos)
+
+datos <- na.omit(datos)
+```
+
+
+## Realizamos un poco de exploración a los datos
+
+
+
+```{r, echo=TRUE}
+xray::distributions(datos[,5:7])
+```
+
+* Entre el n?mero de minutos jugados y los puntos la relaci?n es lineal. 
+
+```{r, echo=TRUE}
+datos_reduced<-datos[,5:7]
+datos_reduced<-datos_reduced[,-5:-6]
+pairs(datos_reduced)
+```
+
+Esto me lleva a pensar que los minutos son un atributo esencial, si un jugador no juega obviamente no va a tener oportunidad de conseguir ninguna estadistica. 
+
+Por otro lado, debemos tener en cuenta que tenemos dos origenes de datos distintos. 
+
+* Los jugadores de la NBA juegan un m?ximo de 82 partidos por temporada.
+* Las jugadoras de la WNBA juegan un m?ximo de 34 partidos por temporada.
+
+Por lo que los valores estadisticos totales discriminan a las jugadoras, que no tendran la misma cantidad de puntos, ni de rebotes. 
+
+Por lo que realizaremos los siguientes ajustes:
+
+* Se elimina la columna de total de partidos. 
+
+```{r, echo=TRUE}
+ggplot(datos, aes(x = off)) +
+  geom_histogram(bins = 10)
+plotly::plot_ly(y = ~datos$off, type = "box")
+plotly::plot_ly(y = ~datos$def, type = "box")
+plotly::plot_ly(y = ~datos$spi, type = "box")
+```
+
+Mediante los boxplots vemos la presencia de outliers en datos$off que son los porcetanjes en ofensiva
+
+
+```{r, echo=TRUE}
+remove_outliers <- function(x, limit = 3) {
+    mn <- mean(x, na.rm = T)
+    out <- limit * sd(x, na.rm = T)
+    x < (mn - out) | x > (mn + out)
+}
+
+filas_bro<-nrow(datos)
+datos<-datos[remove_outliers(datos$off,3)==FALSE,]
+filas_aro<-nrow(datos)
+```
+
+****
+# Normalizacion de datos
+****
+
+## Revisión de datos normalizados
+
+Para revisar si las variables pueden ser candidatas a la normalizacion miramos las graficas de quantile-quantile plot y el histograma.
+
+```{r ,eval=TRUE,echo=TRUE}
+datosNum<-datos[,c(5:7)]
+boxplot(datosNum, las=2)
+
+par(mfrow=c(2,2))
+for(i in 1:ncol(datos)) {
+  if (is.numeric(datos[,i])){
+    qqnorm(datos[,i],main = paste("Normal Q-Q Plot for ",colnames(datos)[i]))
+    qqline(datos[,i],col="red")
+    hist(datos[,i], 
+      main=paste("Histogram for ", colnames(datos)[i]), 
+      xlab=colnames(datos)[i], freq = FALSE)
+  }
+}
+```
+
+Los resultados del quantile-quantile plot nos indica que las variables pueden ser candidatas a la normalizaci?n si es necesario.
+
+Para revisar si las variables estan normalizadas se aplica el test de Shapiro Wilk en cada variables numerica. 
+
+```{r ,eval=TRUE,echo=TRUE}
+shapiro.test(datos$off)
+```
+
+```{r ,eval=TRUE,echo=TRUE}
+shapiro.test(datos$def)
+```
+
+```{r ,eval=TRUE,echo=TRUE}
+shapiro.test(datos$spi)
+```
+
+El test nos indica que no esta normalizado, ya que el p-valor es inferior al coeficiente 0.05
+
+## Aplicacion de pruebas estadisticas
+
+
+```{r ,eval=TRUE,echo=TRUE}
+datos_glm<-datos[which(datos$off>2),]
+ntrain <- nrow(datos_glm)*0.8
+ntest <- nrow(datos_glm)*0.2
+set.seed(1)
+index_train<-sample(1:nrow(datos_glm),size = ntrain)
+train<-datos_glm[index_train,]
+test<-datos_glm[-index_train,]
+modelo<-lm(formula = spi ~ off, data=train)
+summary(modelo)
+```
+
+El modelo es muy bueno, el coeficiente R^2 ajustado es 0.3764, bastante alejado del optimo. Sin embargo el uso de la variables de los puntos parece adecuada de acuerdo al p-valor de la misma.
+
+Podemos comprobar la validez del modelo realizando la prediccion y comparando los valores predecidos con los reales.
+
+
+```{r ,eval=TRUE,echo=TRUE}
+prob_sl<-predict(modelo, test, type="response")
+mc_sl<-data.frame(
+  real=test$spi,
+  predicted= prob_sl,
+  dif=ifelse(test$spi>prob_sl, -prob_sl*100/test$spi,prob_sl*100/test$spi)
+  )
+colnames(mc_sl)<-c("Real","Predecido","Dif%")
+mc_sl
+```
+
+
+Sin embargo esta practica no se basa en tratar de establecer el salario a partir de las estadisticas, sino en ver la brecha salarial. Para ello vamos a predecir lo defensivo de los equipos con este mismo modelo y compararlo con los datos reales. 
+
+
+## Comparacion de datos con el dataset 
+
+Que ocurriria si aplicasemos el mismo modelo con los datos defensivos
+
+```{r ,eval=TRUE,echo=TRUE}
+test<-datos[which(datos$def>2),]
+prob_sl<-predict(modelo, test, type="response")
+mc_sl<-data.frame(
+  real=test$spi,
+  predicted= prob_sl,
+  dif=ifelse(test$spi>prob_sl, -prob_sl*100/test$spi,prob_sl*100/test$spi)
+  )
+colnames(mc_sl)<-c("Real","Predecido","Dif%")
+mc_sl
+```
+
+
+Podriamos indicar que no siempre siendo muy ofensivo puede ser tambien bien defensivamente en los equipos.
+
+****
+# Representacion de los resultados a partir de tablas y graficas.
+****
+
+
+```{r ,eval=TRUE,echo=TRUE}
+options(scipen=5)
+datos_off=sum(as.numeric(datos$spi[which(datos$off>2)])/length(which(datos$off>2)))
+datos_def=sum(as.numeric(datos$spi[which(datos$def>2)])/length(which(datos$def>2)))
+counts <- c(datos_off, datos_def)
+barplot(counts, names=c("Ofensivo", "Defensivo"), main="Media de la relación de Ofensivos vs Defensivo", 
+  	xlab="Clubs")
+```
+
+
+****
+# Resolucion del problema y conclusiones.
+****
+Los datos ofensivos y defensivos ayudan a determinar el rating de los equipos, pero tambien se puede determinar que siendo muy ofensivo no es un indicativo que tambien es un equipo muy defensivo, la variabilidad es aleatoria.
+
+****
+# Exportaci?n del c?digo en R y de los datos producidos.
+****
+
+El codigo en R esta incluido en este fichero con extension rmd y tambien se puede descargar en GitHub desde la siguiente direccion:
+
+https://github.com/Bengis/nba-gap-cleaning/blob/master/code/datos_cleaning.r
+
+Los datos de salida se exportan mediante el siguiente comando y pueden ser descargados desde en GitHub desde la siguiente direccion:
+
+https://github.com/Bengis/nba-gap-cleaning/blob/master/data/datos.csv
+
+```{r ,eval=TRUE,echo=TRUE}
+write.csv(datos, file = "datos.csv")
+```
+
