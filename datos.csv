@@ -1,0 +1,633 @@
+"","Rank","team","League","country","off","def","spi"
+"3",3,"Chelsea","Chelsea","England",2.4,0.2,90.5
+"5",5,"Liverpool","Liverpool","England",2.7,0.4,89.2
+"6",6,"RB Leipzig","RB Leipzig","Germany",2.5,0.4,86.7
+"7",7,"Real Madrid","Real Madrid","Spain",2.5,0.4,86.5
+"8",8,"Man. United","Man. United","England",2.4,0.5,85.5
+"9",9,"PSG","PSG","France",2.6,0.6,84.6
+"10",10,"Dortmund","Dortmund","Germany",2.7,0.7,84.5
+"11",11,"Atlético Madrid","Atlético Madrid","Spain",2.2,0.4,84.5
+"12",12,"Atalanta","Atalanta","Italy",2.6,0.6,84.1
+"13",13,"Arsenal","Arsenal","England",2.2,0.4,83.7
+"14",14,"Inter Milan","Inter Milan","Italy",2.4,0.6,83.4
+"15",15,"Juventus","Juventus","Italy",2.5,0.7,82.3
+"16",16,"Sevilla","Sevilla","Spain",2.1,0.5,81.8
+"17",17,"Real Sociedad","Real Sociedad","Spain",2.1,0.5,80.8
+"18",18,"Ajax","Ajax","Netherlands",2.7,0.9,80.6
+"20",20,"Villarreal","Villarreal","Spain",2.2,0.6,79.6
+"21",21,"Napoli","Napoli","Italy",2.3,0.7,79.5
+"22",22,"AC Milan","AC Milan","Italy",2.2,0.6,79.4
+"23",23,"Monaco","Monaco","France",2.1,0.6,79.2
+"24",24,"Wolfsburg","Wolfsburg","Germany",2.2,0.7,78.7
+"25",25,"Brighton","Brighton","England",2,0.5,78.7
+"26",26,"Leicester","Leicester","England",2.1,0.6,78.2
+"27",27,"Tottenham","Tottenham","England",2.3,0.8,78.1
+"28",28,"Zenit","Zenit","Russia",2.4,0.8,78
+"29",29,"Porto","Porto","Portugal",2.1,0.7,76.8
+"30",30,"Lyon","Lyon","France",2.3,0.8,76.7
+"31",31,"Lille","Lille","France",1.7,0.4,76.5
+"32",32,"Real Betis","Real Betis","Spain",2,0.6,76.1
+"33",33,"Leverkusen","Leverkusen","Germany",2.1,0.7,76.1
+"34",34,"West Ham","West Ham","England",2.2,0.8,76
+"35",35,"Benfica","Benfica","Portugal",2.2,0.8,75.3
+"36",36,"Leeds United","Leeds United","England",2.1,0.8,74.9
+"37",37,"Getafe","Getafe","Spain",1.6,0.4,74.7
+"38",38,"Gladbach","Gladbach","Germany",2.2,0.9,73.8
+"39",39,"Eintracht","Eintracht","Germany",2.4,1,73.6
+"40",40,"Athletic Bilbao","Athletic Bilbao","Spain",1.8,0.6,73.3
+"41",41,"Flamengo","Flamengo","Brazil",2.1,0.8,73.1
+"42",42,"Roma","Roma","Italy",2.2,0.9,72.9
+"43",43,"Lazio","Lazio","Italy",2.1,0.9,72.8
+"44",44,"Everton","Everton","England",1.9,0.7,72.3
+"45",45,"Aston Villa","Aston Villa","England",2,0.8,72.2
+"46",46,"Celta Vigo","Celta Vigo","Spain",2,0.8,72
+"47",47,"Hoffenheim","Hoffenheim","Germany",2.2,0.9,71.9
+"48",48,"Sporting","Sporting","Portugal",1.8,0.7,71.4
+"49",49,"Rangers","Rangers","Scotland",2.1,0.9,71.4
+"50",50,"Young Boys","Young Boys","Switzerland",2.2,1,71.3
+"51",51,"Eibar","Eibar","Spain",1.8,0.7,71.2
+"52",52,"Shakhtar","Shakhtar","",2.2,1,70.9
+"53",53,"Union Berlin","Union Berlin","Germany",1.9,0.8,70.8
+"54",54,"Olympiacos","Olympiacos","Greece",1.9,0.8,70.5
+"55",55,"Sassuolo","Sassuolo","Italy",2.1,0.9,70.4
+"56",56,"Rennes","Rennes","France",1.7,0.6,70.2
+"57",57,"Mainz","Mainz","Germany",2,0.9,70.1
+"58",58,"Wolves","Wolves","England",1.7,0.7,69.6
+"59",59,"Fulham","Fulham","England",1.7,0.7,68
+"60",60,"Osasuna","Osasuna","Spain",1.7,0.8,67.9
+"61",61,"Newcastle","Newcastle","England",1.9,0.9,67.8
+"62",62,"PSV","PSV","Netherlands",2.1,1.1,67.8
+"63",63,"SC Freiburg","SC Freiburg","Germany",1.9,0.9,67.3
+"64",64,"Huesca","Huesca","Spain",1.6,0.7,67.2
+"65",65,"Brentford","Brentford","England",1.7,0.8,67
+"66",66,"Southampton","Southampton","England",1.9,0.9,67
+"67",67,"Hertha BSC","Hertha BSC","Germany",1.8,0.8,66.9
+"68",68,"Burnley","Burnley","England",1.9,0.9,66.8
+"69",69,"Valencia","Valencia","Spain",1.8,0.9,66.6
+"70",70,"Alavés","Alavés","Spain",1.7,0.8,66.6
+"71",71,"AZ Alkmaar","AZ Alkmaar","Netherlands",2,1.1,66.3
+"72",72,"Dinamo Zagreb","Dinamo Zagreb","",1.9,1,66.2
+"73",73,"VfB Stuttgart","VfB Stuttgart","Germany",2,1.1,66
+"74",74,"Slavia Prague","Slavia Prague","",1.9,1,65.9
+"75",75,"Club Brugge","Club Brugge","Belgium",1.9,1,65.8
+"76",76,"River Plate","River Plate","Argentina",1.7,0.9,65.5
+"77",77,"Norwich","Norwich","England",1.8,1,65
+"78",78,"Marseille","Marseille","France",1.7,0.9,64.5
+"79",79,"Levante","Levante","Spain",1.8,0.9,64.2
+"80",80,"Strasbourg","Strasbourg","France",1.6,0.9,63.6
+"81",81,"Sampdoria","Sampdoria","Italy",1.7,1,63.4
+"82",82,"Internacional","Internacional","Brazil",1.6,0.8,63.3
+"83",83,"1. FC Köln","1. FC Köln","Germany",1.8,1,63.3
+"84",84,"Galatasaray","Galatasaray","Turkey",1.9,1.1,62.9
+"85",85,"Besiktas","Besiktas","Turkey",2,1.2,62.7
+"86",86,"Granada","Granada","Spain",1.7,0.9,62.5
+"87",87,"Arminia","Arminia","Germany",1.6,0.9,62.5
+"88",88,"Valladolid","Valladolid","Spain",1.6,0.9,62.2
+"89",89,"Midtjylland","Midtjylland","Denmark",1.8,1.1,62.2
+"90",90,"Genk","Genk","Belgium",2.1,1.3,62.2
+"91",91,"Guangzhou E.","Guangzhou E.","China",1.9,1.1,61.8
+"92",92,"Dynamo Kiev","Dynamo Kiev","",1.8,1.1,61.7
+"93",93,"Lokomotiv","Lokomotiv","Russia",1.6,1,61.7
+"94",94,"Verona","Verona","Italy",1.6,0.9,61.7
+"95",95,"Crystal Palace","Crystal Palace","England",1.7,1,61.5
+"96",96,"Spartak Moscow","Spartak Moscow","Russia",1.8,1.1,61.4
+"97",97,"Kawasaki","Kawasaki","Japan",1.9,1.2,61.3
+"98",98,"Fiorentina","Fiorentina","Italy",1.6,1,61.3
+"99",99,"Celtic","Celtic","Scotland",1.8,1.1,61.3
+"100",100,"Atlético Mineiro","Atlético Mineiro","Brazil",1.6,1,61.2
+"101",101,"Lens","Lens","France",1.7,1,61.2
+"102",102,"Cagliari","Cagliari","Italy",1.7,1,61.2
+"103",103,"Braga","Braga","Portugal",1.6,1,60.9
+"104",104,"CSKA Moscow","CSKA Moscow","Russia",1.6,1,60.6
+"105",105,"PAOK","PAOK","Greece",1.5,0.9,60.6
+"106",106,"Bragantino","Bragantino","Brazil",1.5,0.9,60.6
+"107",107,"St Étienne","St Étienne","France",1.5,0.9,60.5
+"108",108,"Boca Juniors","Boca Juniors","Argentina",1.5,0.9,60.2
+"109",109,"Werder Bremen","Werder Bremen","Germany",1.7,1.1,60.1
+"110",110,"Espanyol","Espanyol","Spain",1.6,1,60
+"111",111,"West Brom","West Brom","England",1.8,1.2,59.7
+"112",112,"Elche","Elche","Spain",1.5,0.9,59.6
+"113",113,"Nantes","Nantes","France",1.6,1,59.6
+"114",114,"Watford","Watford","England",1.5,0.9,59.5
+"115",115,"Bologna","Bologna","Italy",1.8,1.2,59.5
+"116",116,"Sochi","Sochi","Russia",1.6,1,59.3
+"117",117,"Palmeiras","Palmeiras","Brazil",1.4,0.9,59.3
+"118",118,"Feyenoord","Feyenoord","Netherlands",1.8,1.2,59.2
+"119",119,"FC Augsburg","FC Augsburg","Germany",1.7,1.1,59
+"120",120,"Rapid Vienna","Rapid Vienna","Austria",1.8,1.2,58.9
+"121",121,"Torino","Torino","Italy",1.7,1.1,58.5
+"122",122,"São Paulo","São Paulo","Brazil",1.5,0.9,58.5
+"123",123,"Nice","Nice","France",1.6,1.1,58.4
+"124",124,"Shanghai SIPG","Shanghai SIPG","China",1.7,1.1,58.4
+"125",125,"Beijing Guoan","Beijing Guoan","China",1.8,1.2,58.3
+"126",126,"Gent","Gent","Belgium",1.7,1.1,58.2
+"127",127,"Dinamo Moscow","Dinamo Moscow","Russia",1.5,1,57.7
+"128",128,"Udinese","Udinese","Italy",1.6,1.1,57.5
+"129",129,"Genoa","Genoa","Italy",1.6,1.1,57.4
+"130",130,"AEK Athens","AEK Athens","Greece",1.5,1,57.4
+"131",131,"Grêmio","Grêmio","Brazil",1.5,1,57
+"132",132,"Sparta Prague","Sparta Prague","",1.7,1.2,56.9
+"133",133,"Anderlecht","Anderlecht","Belgium",1.5,1.1,56.8
+"134",134,"Spezia","Spezia","Italy",1.7,1.2,56.8
+"135",135,"Red Star","Red Star","",1.8,1.3,56.8
+"136",136,"Rubin Kazan","Rubin Kazan","Russia",1.3,0.9,56.7
+"137",137,"Fenerbahçe","Fenerbahçe","Turkey",1.7,1.2,56.7
+"138",138,"Bournemouth","Bournemouth","England",1.5,1.1,56.7
+"139",139,"Utrecht","Utrecht","Netherlands",1.7,1.2,56.6
+"140",140,"Monterrey","Monterrey","Mexico",1.5,1.1,56.5
+"141",141,"Lorient","Lorient","France",1.5,1.1,56.4
+"142",142,"Sheffield Utd","Sheffield Utd","England",1.4,1,56.3
+"143",143,"Krasnodar","Krasnodar","Russia",1.8,1.3,56.1
+"144",144,"Bodø/Glimt","Bodø/Glimt","Norway",1.9,1.4,56.1
+"145",145,"Cádiz","Cádiz","Spain",1.6,1.1,56.1
+"146",146,"Barnsley","Barnsley","England",1.4,1,55.9
+"147",147,"Montpellier","Montpellier","France",1.7,1.3,55.7
+"148",148,"Maccabi Tel-Aviv","Maccabi Tel-Aviv","",1.4,1,55.6
+"149",149,"Club América","Club América","Mexico",1.5,1.1,55.5
+"150",150,"Brest","Brest","France",1.6,1.2,55.4
+"151",151,"Angers","Angers","France",1.3,0.9,55.3
+"152",152,"Brøndby","Brøndby","Denmark",1.6,1.2,55
+"153",153,"Cruz Azul","Cruz Azul","Mexico",1.4,1,55
+"154",154,"LASK Linz","LASK Linz","Austria",1.6,1.2,54.9
+"155",155,"Molde","Molde","Norway",1.9,1.5,54.6
+"156",156,"Sturm Graz","Sturm Graz","Austria",1.6,1.2,54.4
+"157",157,"Fluminense","Fluminense","Brazil",1.3,1,54.4
+"158",158,"Santa Clara","Santa Clara","Portugal",1.4,1,54
+"159",159,"Ferencváros","Ferencváros","",1.6,1.3,54
+"160",160,"Copenhagen","Copenhagen","Denmark",1.9,1.5,53.9
+"161",161,"Bordeaux","Bordeaux","France",1.5,1.1,53.9
+"162",162,"Metz","Metz","France",1.3,1,53.9
+"163",163,"Trabzonspor","Trabzonspor","Turkey",1.3,1,53.7
+"164",164,"Vélez Sarsfield","Vélez Sarsfield","Argentina",1.2,0.9,53.3
+"165",165,"Hapoel Be'er","Hapoel Be'er","",1.6,1.3,53.3
+"166",166,"Santos","Santos","Brazil",1.4,1.1,53.1
+"167",167,"Blackburn","Blackburn","England",1.5,1.2,52.9
+"168",168,"CSKA Sofia","CSKA Sofia","",1.3,1,52.8
+"169",169,"Parma","Parma","Italy",1.7,1.4,52.6
+"170",170,"Malmö","Malmö","Sweden",1.7,1.4,52.5
+"171",171,"Nîmes","Nîmes","France",1.5,1.2,52.4
+"172",172,"Tigres UANL","Tigres UANL","Mexico",1.3,1.1,52
+"173",173,"Atlético-PR","Atlético-PR","Brazil",1.2,1,51.9
+"174",174,"Justicia","Justicia","Argentina",1.3,1,51.8
+"175",175,"NYCFC","NYCFC","USA",1.7,1.4,51.8
+"176",176,"Corinthians","Corinthians","Brazil",1.3,1,51.6
+"177",177,"Cardiff City","Cardiff City","England",1.5,1.2,51.4
+"178",178,"Sivasspor","Sivasspor","Turkey",1.4,1.1,51.3
+"179",179,"Jiangsu Suning","Jiangsu Suning","China",1.5,1.3,51.3
+"180",180,"Rostov","Rostov","Russia",1.3,1.1,51.2
+"181",181,"Ceará","Ceará","Brazil",1.4,1.1,51
+"182",182,"Stoke City","Stoke City","England",1.3,1,51
+"183",183,"CFR Cluj","CFR Cluj","",1.5,1.3,50.8
+"184",184,"Santos Laguna","Santos Laguna","Mexico",1.3,1.1,50.8
+"185",185,"Benevento","Benevento","Italy",1.5,1.3,50.8
+"186",186,"Pachuca","Pachuca","Mexico",1.4,1.2,50.7
+"187",187,"QPR","QPR","England",1.5,1.3,50.3
+"188",188,"Basel","Basel","Switzerland",1.8,1.6,50.2
+"189",189,"Ludogorets","Ludogorets","",1.5,1.3,50.2
+"190",190,"León","León","Mexico",1.5,1.3,50.1
+"191",191,"Lech Poznan","Lech Poznan","",1.3,1.2,49.8
+"192",192,"Clermont","Clermont","France",1.3,1.1,49.8
+"193",193,"Vitesse","Vitesse","Netherlands",1.5,1.4,49.8
+"194",194,"Shandong","Shandong","China",1.6,1.4,49.8
+"195",195,"Antwerp","Antwerp","Belgium",1.6,1.4,49.8
+"196",196,"Famalicão","Famalicão","Portugal",1.3,1.1,49.7
+"197",197,"Toulouse","Toulouse","France",1.6,1.4,49.5
+"198",198,"Independiente","Independiente","Argentina",1.2,1,49.5
+"199",199,"Reims","Reims","France",1.2,1.1,49.3
+"200",200,"Atlas","Atlas","Mexico",1.2,1,49.1
+"201",201,"Bahía","Bahía","Brazil",1.4,1.2,49
+"202",202,"FC Khimki","FC Khimki","Russia",1.3,1.1,49
+"203",203,"LAFC","LAFC","USA",1.6,1.5,48.9
+"204",204,"Newell's","Newell's","Argentina",1.2,1.1,48.6
+"205",205,"Racing","Racing","Argentina",1.2,1.1,48.4
+"206",206,"Yokohama FM","Yokohama FM","Japan",1.5,1.4,48.3
+"207",207,"Mechelen","Mechelen","Belgium",1.7,1.6,48.3
+"208",208,"Philadelphia","Philadelphia","USA",1.5,1.4,48.3
+"209",209,"Luzern","Luzern","Switzerland",1.6,1.5,48.1
+"210",210,"Rotherham","Rotherham","England",1.3,1.2,48.1
+"211",211,"Rosenborg","Rosenborg","Norway",1.7,1.6,48.1
+"212",212,"Seattle","Seattle","USA",1.3,1.2,47.9
+"213",213,"Guimarães","Guimarães","Portugal",1.2,1.1,47.9
+"214",214,"Reading","Reading","England",1.3,1.2,47.8
+"215",215,"Hamburger SV","Hamburger SV","Germany",1.6,1.5,47.8
+"216",216,"Qarabag","Qarabag","",1.3,1.2,47.8
+"217",217,"Portimonense","Portimonense","Portugal",1.2,1.1,47.6
+"218",218,"Panathinaikos","Panathinaikos","Greece",1.1,1,47.5
+"219",219,"Crotone","Crotone","Italy",1.5,1.5,47.2
+"220",220,"New England","New England","USA",1.4,1.4,47.2
+"221",221,"Swansea City","Swansea City","England",1.2,1.1,47.1
+"222",222,"Girona","Girona","Spain",1.1,1,47
+"223",223,"Preston","Preston","England",1.2,1.1,46.9
+"224",224,"Schalke 04","Schalke 04","Germany",1.5,1.4,46.9
+"225",225,"Middlesbrough","Middlesbrough","England",1.2,1.2,46.8
+"226",226,"Guadalajara","Guadalajara","Mexico",1.3,1.2,46.7
+"227",227,"Greuther Fürth","Greuther Fürth","Germany",1.4,1.4,46.7
+"228",228,"Gil Vicente","Gil Vicente","Portugal",1.2,1.2,46.6
+"229",229,"Mallorca","Mallorca","Spain",1.1,1.1,46.3
+"230",230,"Akhmat Grozny","Akhmat Grozny","Russia",1.2,1.2,46.3
+"231",231,"Coventry City","Coventry City","England",1.3,1.3,46
+"232",232,"Rio Ave","Rio Ave","Portugal",1.1,1.1,45.9
+"233",233,"AGF Aarhus","AGF Aarhus","Denmark",1.4,1.4,45.9
+"234",234,"Rayo Vallecano","Rayo Vallecano","Spain",1.3,1.3,45.8
+"235",235,"Lanús","Lanús","Argentina",1.3,1.3,45.7
+"236",236,"Atlético","Atlético","Brazil",1.2,1.2,45.7
+"237",237,"Kashima Antlers","Kashima Antlers","Japan",1.4,1.4,45.6
+"238",238,"Fortaleza","Fortaleza","Brazil",1.1,1.1,45.4
+"239",239,"Omonia Nicosia","Omonia Nicosia","",1.4,1.4,45.3
+"240",240,"Austria Vienna","Austria Vienna","Austria",1.4,1.4,45.2
+"241",241,"St. Gallen","St. Gallen","Switzerland",1.5,1.5,45.1
+"242",242,"Ural","Ural","Russia",1.1,1.1,45
+"243",243,"Zorya Luhansk","Zorya Luhansk","",1.3,1.3,44.9
+"244",244,"Derby County","Derby County","England",1.2,1.2,44.8
+"245",245,"Talleres","Talleres","Argentina",1.2,1.2,44.8
+"246",246,"Leganés","Leganés","Spain",1.1,1.1,44.8
+"247",247,"Millwall","Millwall","England",1.3,1.3,44.8
+"248",248,"Luton Town","Luton Town","England",1.2,1.2,44.7
+"249",249,"Wolfsberg","Wolfsberg","Austria",1.5,1.6,44.6
+"250",250,"Sporting KC","Sporting KC","USA",1.4,1.5,44.5
+"251",251,"Oostende","Oostende","Belgium",1.5,1.6,44.4
+"252",252,"Sparta","Sparta","Netherlands",1.4,1.4,44.2
+"253",253,"Puebla","Puebla","Mexico",1.2,1.2,44.2
+"254",254,"Nottm Forest","Nottm Forest","England",1.1,1.1,44.2
+"255",255,"Nordsjælland","Nordsjælland","Denmark",1.5,1.6,44
+"256",256,"Paços Ferreira","Paços Ferreira","Portugal",1.2,1.2,43.9
+"257",257,"Sion","Sion","Switzerland",1.5,1.6,43.9
+"258",258,"Aris","Aris","Greece",1.3,1.4,43.8
+"259",259,"Alanyaspor","Alanyaspor","Turkey",1.3,1.4,43.8
+"260",260,"Farense","Farense","Portugal",1.2,1.3,43.7
+"261",261,"Standard Liège","Standard Liège","Belgium",1.5,1.6,43.7
+"262",262,"Fortuna","Fortuna","Germany",1.3,1.4,43.6
+"263",263,"Karagümrükspor","Karagümrükspor","Turkey",1.4,1.5,43.4
+"264",264,"Ufa","Ufa","Russia",1,1.1,43.2
+"265",265,"Sheffield Wed.","Sheffield Wed.","England",1.2,1.3,43.1
+"266",266,"Hatayspor","Hatayspor","Turkey",1.3,1.4,43.1
+"267",267,"Djurgården","Djurgården","Sweden",1.3,1.4,42.9
+"268",268,"Hull City","Hull City","England",1.3,1.4,42.9
+"269",269,"Argentinos","Argentinos","Argentina",1,1.1,42.9
+"270",270,"Troyes","Troyes","France",1.2,1.3,42.8
+"271",271,"Rosario Central","Rosario Central","Argentina",1.2,1.3,42.7
+"272",272,"Estudiantes","Estudiantes","Argentina",1,1.1,42.6
+"273",273,"Wycombe","Wycombe","England",1.2,1.3,42.6
+"274",274,"GFK","GFK","Turkey",1.3,1.4,42.5
+"275",275,"Almería","Almería","Spain",1.2,1.3,42.5
+"276",276,"Boavista","Boavista","Portugal",1.2,1.3,42.5
+"277",277,"Basaksehir","Basaksehir","Turkey",1.1,1.2,42.4
+"278",278,"Portland","Portland","USA",1.5,1.7,42.2
+"279",279,"Moreirense","Moreirense","Portugal",1.2,1.3,42.2
+"280",280,"VfL Bochum","VfL Bochum","Germany",1.3,1.5,42.1
+"281",281,"Pumas UNAM","Pumas UNAM","Mexico",1,1.2,42
+"282",282,"WSG Tirol","WSG Tirol","Austria",1.6,1.8,41.8
+"283",283,"Arsenal","Arsenal","Argentina",1.3,1.4,41.8
+"284",284,"Birmingham","Birmingham","England",1.1,1.3,41.7
+"285",285,"AaB","AaB","Denmark",1.3,1.4,41.6
+"286",286,"Randers","Randers","Denmark",1.2,1.4,41.5
+"287",287,"Tianjin Teda","Tianjin Teda","China",1.3,1.5,41.4
+"288",288,"Belenenses","Belenenses","Portugal",1,1.2,41.4
+"289",289,"Botafogo","Botafogo","Brazil",1.2,1.4,41.3
+"290",290,"Atlético","Atlético","Argentina",1.1,1.2,41.2
+"291",291,"Konyaspor","Konyaspor","Turkey",1.1,1.3,41.2
+"292",292,"Vasco da Gama","Vasco da Gama","Brazil",1.1,1.3,41.1
+"293",293,"Dundalk","Dundalk","",1.5,1.7,41
+"294",294,"San Lorenzo","San Lorenzo","Argentina",1.1,1.3,41
+"295",295,"Groningen","Groningen","Netherlands",1.1,1.3,40.9
+"296",296,"Orlando City","Orlando City","USA",1.2,1.4,40.9
+"297",297,"Melbourne City","Melbourne City","Australia",1.5,1.8,40.8
+"298",298,"Dijon FCO","Dijon FCO","France",1.2,1.4,40.8
+"299",299,"Toluca","Toluca","Mexico",1.3,1.5,40.5
+"300",300,"Sport Recife","Sport Recife","Brazil",1,1.3,40.4
+"301",301,"Patronato","Patronato","Argentina",1.2,1.4,40.3
+"302",302,"Gimnasia","Gimnasia","Argentina",1,1.2,40.3
+"303",303,"Darmstadt 98","Darmstadt 98","Germany",1.4,1.7,40.3
+"304",304,"Kasimpasa","Kasimpasa","Turkey",1.2,1.5,40.2
+"305",305,"Zürich","Zürich","Switzerland",1.5,1.8,40.2
+"306",306,"Heracles","Heracles","Netherlands",1.2,1.5,40.2
+"307",307,"Norrköping","Norrköping","Sweden",1.3,1.6,40.1
+"308",308,"Colorado","Colorado","USA",1.3,1.6,40.1
+"309",309,"Slovan Liberec","Slovan Liberec","",1.2,1.4,39.9
+"310",310,"Holstein Kiel","Holstein Kiel","Germany",1.2,1.5,39.7
+"311",311,"Goiás","Goiás","Brazil",1.2,1.4,39.7
+"312",312,"Banfield","Banfield","Argentina",1,1.2,39.7
+"313",313,"NY Red Bulls","NY Red Bulls","USA",1.3,1.6,39.6
+"314",314,"Rijeka","Rijeka","",1.3,1.6,39.6
+"315",315,"Paris FC","Paris FC","France",1.1,1.3,39.5
+"316",316,"Auxerre","Auxerre","France",1.2,1.4,39.4
+"317",317,"Marítimo","Marítimo","Portugal",1,1.3,39.4
+"318",318,"Lausanne-Sport","Lausanne-Sport","Switzerland",1.4,1.7,39.3
+"319",319,"FC Dallas","FC Dallas","USA",1.3,1.6,39.2
+"320",320,"Unión","Unión","Argentina",1,1.2,39.2
+"321",321,"Toronto FC","Toronto FC","USA",1.3,1.6,39
+"322",322,"Asteras Tripoli","Asteras Tripoli","Greece",1,1.3,39
+"323",323,"Tijuana","Tijuana","Mexico",1.1,1.4,39
+"324",324,"Atlanta","Atlanta","USA",1.2,1.5,38.9
+"325",325,"Charleroi","Charleroi","Belgium",1.2,1.5,38.9
+"326",326,"Sydney FC","Sydney FC","Australia",1.1,1.4,38.8
+"327",327,"Nashville","Nashville","USA",1.1,1.3,38.8
+"328",328,"Lugano","Lugano","Switzerland",1.1,1.4,38.8
+"329",329,"Fortuna Sittard","Fortuna Sittard","Netherlands",1.3,1.7,38.7
+"330",330,"Shenhua","Shenhua","China",1.3,1.7,38.7
+"331",331,"Vålerenga","Vålerenga","Norway",1.3,1.6,38.6
+"332",332,"Arsenal Tula","Arsenal Tula","Russia",1.1,1.4,38.6
+"333",333,"Emmen","Emmen","Netherlands",1.3,1.6,38.6
+"334",334,"Göztepe","Göztepe","Turkey",1.3,1.7,38.6
+"335",335,"Henan Jianye","Henan Jianye","China",1.2,1.6,38.5
+"336",336,"Odense","Odense","Denmark",1.1,1.4,38.5
+"337",337,"Minnesota","Minnesota","USA",1.3,1.7,38.4
+"338",338,"Twente","Twente","Netherlands",1.2,1.6,38.3
+"339",339,"Hannover 96","Hannover 96","Germany",1.2,1.6,38.3
+"340",340,"Phoenix Rising","Phoenix Rising","USA",1.4,1.8,38.2
+"341",341,"SC Paderborn","SC Paderborn","Germany",1.3,1.7,38.2
+"342",342,"Hebei CF","Hebei CF","China",1.3,1.6,38.1
+"343",343,"Chicago","Chicago","USA",1.3,1.7,38.1
+"344",344,"M. Sundowns","M. Sundowns","South Africa",1,1.3,38.1
+"345",345,"Huracán","Huracán","Argentina",1,1.2,37.9
+"346",346,"Y. Malatyaspor","Y. Malatyaspor","Turkey",1.1,1.4,37.9
+"347",347,"Willem II","Willem II","Netherlands",1.3,1.7,37.8
+"348",348,"Empoli","Empoli","Italy",1.2,1.5,37.7
+"349",349,"Nagoya","Nagoya","Japan",0.8,1.1,37.7
+"350",350,"Wuhan Zall","Wuhan Zall","China",1.2,1.5,37.6
+"351",351,"Servette","Servette","Switzerland",1.4,1.8,37.6
+"352",352,"Huddersfield","Huddersfield","England",1.1,1.4,37.5
+"353",353,"Heerenveen","Heerenveen","Netherlands",1.3,1.7,37.5
+"354",354,"Vissel Kobe","Vissel Kobe","Japan",1.2,1.5,37.4
+"355",355,"Columbus","Columbus","USA",1.1,1.5,37.3
+"356",356,"Atromitos","Atromitos","Greece",1,1.3,37.3
+"357",357,"Tondela","Tondela","Portugal",1.1,1.5,37.2
+"358",358,"Central Córdoba","Central Córdoba","Argentina",1,1.3,37.2
+"359",359,"Hammarby","Hammarby","Sweden",1.4,1.8,36.8
+"360",360,"Lecce","Lecce","Italy",1.2,1.6,36.8
+"361",361,"Grenoble","Grenoble","France",1,1.3,36.7
+"362",362,"Dalian Yifang","Dalian Yifang","China",1.3,1.7,36.7
+"363",363,"Peterborough","Peterborough","England",1.2,1.7,36.5
+"364",364,"Kaizer Chiefs","Kaizer Chiefs","South Africa",1,1.4,36.4
+"365",365,"Eupen","Eupen","Belgium",1.2,1.6,36.4
+"366",366,"Zulte Waregem","Zulte Waregem","Belgium",1.5,2,36.1
+"367",367,"PEC Zwolle","PEC Zwolle","Netherlands",1.2,1.6,36.1
+"368",368,"Inter Miami","Inter Miami","USA",1.2,1.6,35.9
+"369",369,"OH Leuven","OH Leuven","Belgium",1.3,1.8,35.9
+"370",370,"W. Phoenix","W. Phoenix","Australia",1.3,1.7,35.8
+"371",371,"Mazatlán","Mazatlán","Mexico",1.1,1.5,35.7
+"372",372,"Blackpool","Blackpool","England",1,1.4,35.7
+"373",373,"Necaxa","Necaxa","Mexico",1.1,1.5,35.6
+"374",374,"Sint-Truidense","Sint-Truidense","Belgium",1.1,1.5,35.4
+"375",375,"Heidenheim","Heidenheim","Germany",1.1,1.5,35.4
+"376",376,"Sporting Gijón","Sporting Gijón","Spain",0.6,1,35.4
+"377",377,"San Jose","San Jose","USA",1.3,1.8,35.4
+"378",378,"Häcken","Häcken","Sweden",1.1,1.5,35.3
+"379",379,"Elfsborg","Elfsborg","Sweden",1.2,1.6,35.2
+"380",380,"Coritiba","Coritiba","Brazil",1,1.4,35.1
+"381",381,"San Luis","San Luis","Mexico",1.2,1.6,35.1
+"382",382,"OFI","OFI","Greece",1.1,1.5,34.8
+"383",383,"Tenerife","Tenerife","Spain",0.8,1.1,34.8
+"384",384,"Beerschot","Beerschot","Belgium",1.3,1.8,34.8
+"385",385,"Guingamp","Guingamp","France",0.9,1.3,34.8
+"386",386,"Rizespor","Rizespor","Turkey",1.3,1.8,34.8
+"387",387,"Chongqing Lifan","Chongqing Lifan","China",1.1,1.6,34.8
+"388",388,"Kortrijk","Kortrijk","Belgium",1.2,1.7,34.8
+"389",389,"Cercle Brugge","Cercle Brugge","Belgium",1,1.5,34.7
+"390",390,"Hartberg","Hartberg","Austria",1.1,1.6,34.6
+"391",391,"FC Juárez","FC Juárez","Mexico",1,1.5,34.6
+"392",392,"Oviedo","Oviedo","Spain",0.9,1.4,34.6
+"393",393,"Hibernian","Hibernian","Scotland",1,1.5,34.6
+"394",394,"Karlsruher SC","Karlsruher SC","Germany",1.2,1.7,34.5
+"395",395,"SV Sandhausen","SV Sandhausen","Germany",1.1,1.6,34.5
+"396",396,"Fuenlabrada","Fuenlabrada","Spain",0.9,1.4,34.5
+"397",397,"LA Galaxy","LA Galaxy","USA",1.3,1.8,34.4
+"398",398,"FC St. Pauli","FC St. Pauli","Germany",1.2,1.7,34.4
+"399",399,"Antalyaspor","Antalyaspor","Turkey",1,1.5,34.3
+"400",400,"Querétaro","Querétaro","Mexico",1,1.5,34.2
+"401",401,"Nacional","Nacional","Portugal",1.1,1.6,34.2
+"402",402,"Cerezo Osaka","Cerezo Osaka","Japan",0.9,1.3,34.1
+"403",403,"Nancy","Nancy","France",1.1,1.6,33.8
+"404",404,"Guangzhou R&F","Guangzhou R&F","China",1.4,2.1,33.7
+"405",405,"Orlando Pirates","Orlando Pirates","South Africa",1,1.5,33.7
+"406",406,"Houston","Houston","USA",1.2,1.7,33.7
+"407",407,"Aldosivi","Aldosivi","Argentina",0.9,1.3,33.6
+"408",408,"Tianjin Quanjian","Tianjin Quanjian","China",1.2,1.7,33.5
+"409",409,"Monza","Monza","Italy",1,1.5,33.3
+"410",410,"Sagan Tosu","Sagan Tosu","Japan",0.8,1.3,33.2
+"411",411,"Real Salt Lake","Real Salt Lake","USA",1,1.5,33.1
+"412",412,"Las Palmas","Las Palmas","Spain",0.9,1.5,33.1
+"413",413,"Cartagena","Cartagena","Spain",1,1.5,33.1
+"414",414,"Sanfrecce","Sanfrecce","Japan",0.9,1.3,33
+"415",415,"Shenzhen","Shenzhen","China",1.2,1.8,32.6
+"416",416,"Mouscron","Mouscron","Belgium",1,1.6,32.6
+"417",417,"Urawa Reds","Urawa Reds","Japan",1,1.5,32.5
+"418",418,"Ankaragücü","Ankaragücü","Turkey",1.1,1.7,32.5
+"419",419,"Kayserispor","Kayserispor","Turkey",0.9,1.5,32.5
+"420",420,"Oxford United","Oxford United","England",1.2,1.9,32.4
+"421",421,"Montréal","Montréal","USA",1.1,1.8,32.3
+"422",422,"Nürnberg","Nürnberg","Germany",1,1.6,32.3
+"423",423,"Göteborg","Göteborg","Sweden",1,1.5,32.2
+"424",424,"Vaduz","Vaduz","Switzerland",1,1.6,32.2
+"425",425,"FK Volgograd","FK Volgograd","Russia",0.8,1.4,32.1
+"426",426,"Sunderland","Sunderland","England",1,1.6,32
+"427",427,"AIK","AIK","Sweden",0.9,1.5,32
+"428",428,"Sabadell","Sabadell","Spain",0.9,1.4,32
+"429",429,"SønderjyskE","SønderjyskE","Denmark",1.1,1.8,31.9
+"430",430,"Sochaux","Sochaux","France",0.8,1.4,31.8
+"431",431,"Regensburg","Regensburg","Germany",1,1.6,31.7
+"432",432,"Alcorcón","Alcorcón","Spain",0.7,1.2,31.7
+"433",433,"D.C. United","D.C. United","USA",1,1.6,31.6
+"434",434,"Vejle","Vejle","Denmark",1.1,1.7,31.5
+"435",435,"Rheindorf Altach","Rheindorf Altach","Austria",1,1.7,31.5
+"436",436,"Erzurumspor","Erzurumspor","Turkey",1.1,1.8,31.5
+"437",437,"Ponferradina","Ponferradina","Spain",0.9,1.5,31.5
+"438",438,"Málaga","Málaga","Spain",0.7,1.2,31.4
+"439",439,"Pau","Pau","France",1,1.6,31.2
+"440",440,"Cremonese","Cremonese","Italy",0.9,1.6,31
+"441",441,"Consa","Consa","Japan",1,1.6,31
+"442",442,"Venezia","Venezia","Italy",0.9,1.6,30.8
+"443",443,"Amiens","Amiens","France",0.8,1.4,30.7
+"444",444,"FC Tokyo","FC Tokyo","Japan",1,1.6,30.4
+"445",445,"Salernitana","Salernitana","Italy",0.8,1.5,30.4
+"446",446,"Kristiansund","Kristiansund","Norway",1,1.7,30.3
+"447",447,"Zaragoza","Zaragoza","Spain",0.8,1.4,30.3
+"448",448,"Bristol City","Bristol City","England",1,1.7,30.2
+"449",449,"Panetolikos","Panetolikos","Greece",0.9,1.5,30.1
+"450",450,"Chievo","Chievo","Italy",0.8,1.5,29.9
+"451",451,"Colón","Colón","Argentina",0.8,1.5,29.9
+"452",452,"Kashiwa Reysol","Kashiwa Reysol","Japan",0.9,1.6,29.9
+"453",453,"Ried","Ried","Austria",1,1.7,29.9
+"454",454,"Godoy Cruz","Godoy Cruz","Argentina",0.9,1.6,29.8
+"455",455,"Mirandés","Mirandés","Spain",0.8,1.4,29.7
+"456",456,"SuperSport Utd","SuperSport Utd","South Africa",0.8,1.5,29.6
+"457",457,"Brescia","Brescia","Italy",1,1.8,29.4
+"458",458,"Gençlerbirligi","Gençlerbirligi","Turkey",1.1,1.9,29.4
+"459",459,"Austin FC","Austin FC","USA",0.9,1.6,29.1
+"460",460,"Western Sydney","Western Sydney","Australia",1.3,2.2,29
+"461",461,"Frosinone","Frosinone","Italy",0.8,1.5,29
+"462",462,"AC Ajaccio","AC Ajaccio","France",0.7,1.4,28.8
+"463",463,"Viking","Viking","Norway",1.2,2,28.8
+"464",464,"St. Pölten","St. Pölten","Austria",1,1.8,28.8
+"465",465,"Le Havre","Le Havre","France",0.9,1.6,28.7
+"466",466,"Cittadella","Cittadella","Italy",0.8,1.5,28.6
+"467",467,"Brisbane Roar","Brisbane Roar","Australia",0.9,1.6,28.6
+"468",468,"Perth Glory","Perth Glory","Australia",1.1,1.9,28.5
+"469",469,"Bidvest Wits","Bidvest Wits","South Africa",0.7,1.4,28.4
+"470",470,"RKC","RKC","Netherlands",1,1.8,28.4
+"471",471,"Tampa Bay","Tampa Bay","USA",0.9,1.7,28.3
+"472",472,"Rodez","Rodez","France",0.7,1.4,28.3
+"473",473,"W. Beveren","W. Beveren","Belgium",1.1,2,28.2
+"474",474,"Larissa","Larissa","Greece",0.7,1.4,28.2
+"475",475,"Pisa","Pisa","Italy",1,1.8,28.2
+"476",476,"Odd","Odd","Norway",1,1.9,28.1
+"477",477,"Aberdeen","Aberdeen","Scotland",0.7,1.4,28.1
+"478",478,"Mjällby","Mjällby","Sweden",0.9,1.7,27.8
+"479",479,"Lincoln City","Lincoln City","England",0.9,1.7,27.8
+"480",480,"Gamba Osaka","Gamba Osaka","Japan",0.7,1.4,27.7
+"481",481,"Stabæk","Stabæk","Norway",0.9,1.8,27.6
+"482",482,"Lamia","Lamia","Greece",0.5,1.2,27.5
+"483",483,"Charlton Athletic","Charlton Athletic","England",0.9,1.8,27.4
+"484",484,"San Antonio","San Antonio","USA",1,1.8,27.4
+"485",485,"Louisville City","Louisville City","USA",0.9,1.8,27
+"486",486,"Valenciennes","Valenciennes","France",1,1.9,26.9
+"487",487,"Beijing Renhe","Beijing Renhe","China",0.9,1.8,26.8
+"488",488,"St Johnstone","St Johnstone","Scotland",0.7,1.5,26.8
+"489",489,"Adelaide United","Adelaide United","Australia",1,2,26.7
+"490",490,"Livingston","Livingston","Scotland",0.8,1.7,26.2
+"491",491,"C.C. Mariners","C.C. Mariners","Australia",0.9,1.9,26.1
+"492",492,"SPAL","SPAL","Italy",0.8,1.6,26.1
+"493",493,"Avispa Fukuoka","Avispa Fukuoka","Japan",0.9,1.7,26
+"494",494,"Lugo","Lugo","Spain",0.8,1.6,25.9
+"495",495,"Orange County","Orange County","USA",0.9,1.9,25.9
+"496",496,"Xanthi","Xanthi","Greece",0.6,1.3,25.8
+"497",497,"Haugesund","Haugesund","Norway",0.9,1.8,25.8
+"498",498,"VVV-Venlo","VVV-Venlo","Netherlands",1.2,2.2,25.5
+"499",499,"Tambov","Tambov","Russia",0.9,1.9,25.3
+"500",500,"Admira","Admira","Austria",0.8,1.7,25.2
+"501",501,"Gillingham","Gillingham","England",0.9,1.8,25.1
+"502",502,"Reggina","Reggina","Italy",0.8,1.7,25
+"503",503,"Dunkerque","Dunkerque","France",0.7,1.6,24.9
+"504",504,"Erzgebirge Aue","Erzgebirge Aue","Germany",0.9,1.9,24.7
+"505",505,"Varbergs BoIS","Varbergs BoIS","Sweden",0.9,1.9,24.7
+"506",506,"Shimizu S-Pulse","Shimizu S-Pulse","Japan",0.8,1.8,24.5
+"507",507,"Albacete","Albacete","Spain",0.6,1.5,24.4
+"508",508,"Cape Town City","Cape Town City","South Africa",0.8,1.8,24.3
+"509",509,"Degerfors","Degerfors","Sweden",0.7,1.7,24.3
+"510",510,"Motherwell","Motherwell","Scotland",0.8,1.8,24.2
+"511",511,"Caen","Caen","France",0.7,1.6,24.1
+"512",512,"Maritzburg Utd","Maritzburg Utd","South Africa",0.6,1.4,24.1
+"513",513,"Pordenone","Pordenone","Italy",0.7,1.6,24
+"514",514,"Lyngby","Lyngby","Denmark",1,2,24
+"515",515,"Castellón","Castellón","Spain",0.7,1.6,23.9
+"516",516,"St Mirren","St Mirren","Scotland",0.7,1.6,23.9
+"517",517,"VfL Osnabrück","VfL Osnabrück","Germany",0.8,1.9,23.7
+"518",518,"Vancouver","Vancouver","USA",0.8,1.9,23.5
+"519",519,"Chambly","Chambly","France",0.8,1.9,23.4
+"520",520,"Braunschweig","Braunschweig","Germany",0.7,1.7,23.2
+"521",521,"Östersund","Östersund","Sweden",0.8,1.8,23.2
+"522",522,"ADO Den Haag","ADO Den Haag","Netherlands",1,2.1,23.1
+"523",523,"FC Cincinnati","FC Cincinnati","USA",0.8,1.9,23.1
+"524",524,"Denizlispor","Denizlispor","Turkey",0.9,2,23.1
+"525",525,"Kickers","Kickers","Germany",0.9,2,23
+"526",526,"Sirius","Sirius","Sweden",0.9,2,22.9
+"527",527,"Horsens","Horsens","Denmark",0.9,2,22.7
+"528",528,"Dundee Utd","Dundee Utd","Scotland",0.7,1.7,22.6
+"529",529,"Sarpsborg","Sarpsborg","Norway",0.7,1.7,22.4
+"530",530,"Bloem Celtic","Bloem Celtic","South Africa",0.8,1.9,22.4
+"531",531,"Portsmouth","Portsmouth","England",0.7,1.8,22.3
+"532",532,"Macarthur FC","Macarthur FC","Australia",0.8,1.9,22.3
+"533",533,"Birmingham","Birmingham","USA",0.8,1.9,22.3
+"534",534,"Burton Albion","Burton Albion","England",0.9,2,22.3
+"535",535,"Vicenza","Vicenza","Italy",0.7,1.7,22.3
+"536",536,"Ascoli","Ascoli","Italy",0.7,1.7,22.2
+"537",537,"Tokushima Vortis","Tokushima Vortis","Japan",0.7,1.7,22.1
+"538",538,"Sacramento","Sacramento","USA",0.8,1.9,22
+"539",539,"Indy Eleven","Indy Eleven","USA",0.7,1.8,21.9
+"540",540,"Brann","Brann","Norway",0.8,2,21.8
+"541",541,"Newcastle Jets","Newcastle Jets","Australia",0.8,1.9,21.8
+"542",542,"Panionios","Panionios","Greece",0.5,1.4,21.8
+"543",543,"Kalmar","Kalmar","Sweden",0.6,1.7,21.8
+"544",544,"Pittsburgh","Pittsburgh","USA",0.7,1.8,21.8
+"545",545,"Shonan","Shonan","Japan",0.5,1.5,21.7
+"546",546,"Strømsgodset","Strømsgodset","Norway",0.9,2.1,21.6
+"547",547,"Charlotte","Charlotte","USA",0.8,1.9,21.6
+"548",548,"Logroñés","Logroñés","Spain",0.5,1.5,21.5
+"549",549,"MK Dons","MK Dons","England",0.8,1.9,21.4
+"550",550,"Volos","Volos","Greece",0.7,1.7,21.2
+"551",551,"Örebro","Örebro","Sweden",0.8,2,21
+"552",552,"New Mexico","New Mexico","USA",0.7,1.9,20.9
+"553",553,"El Paso","El Paso","USA",0.6,1.8,20.5
+"554",554,"Melbourne Vic","Melbourne Vic","Australia",1,2.3,20.5
+"555",555,"Kilmarnock","Kilmarnock","Scotland",0.8,2,20.4
+"556",556,"Halmstad","Halmstad","Sweden",0.6,1.8,20.4
+"557",557,"Vegalta Sendai","Vegalta Sendai","Japan",0.7,1.8,20.2
+"558",558,"San Diego Loyal","San Diego Loyal","USA",0.8,2,20.1
+"559",559,"Hamilton Accies","Hamilton Accies","Scotland",0.7,1.9,19.9
+"560",560,"Châteauroux","Châteauroux","France",0.6,1.8,19.9
+"561",561,"Lillestrøm","Lillestrøm","Norway",0.7,1.9,19.6
+"562",562,"Highlands Park","Highlands Park","South Africa",0.6,1.7,19
+"563",563,"Western United","Western United","Australia",0.8,2.2,18.9
+"564",564,"Fleetwood Town","Fleetwood Town","England",0.5,1.7,18.9
+"565",565,"Mjøndalen","Mjøndalen","Norway",0.6,1.8,18.7
+"566",566,"Ross County","Ross County","Scotland",0.7,2.1,18.6
+"567",567,"C.S. Switchbacks","C.S. Switchbacks","USA",0.7,2.1,18.6
+"568",568,"Stanley","Stanley","England",0.8,2.2,18.4
+"569",569,"Rochdale","Rochdale","England",0.8,2.2,18.4
+"570",570,"Oita Trinita","Oita Trinita","Japan",0.5,1.8,18.4
+"571",571,"Sandefjord","Sandefjord","Norway",0.7,2,18.3
+"572",572,"Crewe Alexandra","Crewe Alexandra","England",0.7,2,18.3
+"573",573,"Pescara","Pescara","Italy",0.6,1.8,18.1
+"574",574,"Wigan","Wigan","England",0.7,2.1,18.1
+"575",575,"Ipswich Town","Ipswich Town","England",0.4,1.6,17.9
+"576",576,"Morecambe","Morecambe","England",0.7,2,17.8
+"577",577,"The Miami FC","The Miami FC","USA",0.7,2.1,17.8
+"578",578,"Doncaster","Doncaster","England",0.7,2.1,17.8
+"579",579,"Shrewsbury","Shrewsbury","England",0.6,1.9,17.6
+"580",580,"Exeter City","Exeter City","England",0.6,1.9,17.3
+"581",581,"Tromsø","Tromsø","Norway",0.7,2,17.3
+"582",582,"Niort","Niort","France",0.6,1.9,17.2
+"583",583,"Austin Bold","Austin Bold","USA",0.7,2.1,17.2
+"584",584,"Golden Arrows","Golden Arrows","South Africa",0.4,1.6,17.1
+"585",585,"Wimbledon","Wimbledon","England",0.6,2,17.1
+"586",586,"Bolton","Bolton","England",0.5,1.9,17
+"587",587,"Cheltenham","Cheltenham","England",0.5,1.7,16.9
+"588",588,"Reggiana","Reggiana","Italy",0.5,1.8,16.9
+"589",589,"FC Tulsa","FC Tulsa","USA",0.7,2.1,16.7
+"590",590,"Salford City","Salford City","England",0.4,1.6,16.5
+"591",591,"Memphis 901","Memphis 901","USA",0.7,2.2,16.4
+"592",592,"Cosenza","Cosenza","Italy",0.5,1.9,16.3
+"593",593,"Cambridge","Cambridge","England",0.6,2.1,16
+"594",594,"Polokwane City","Polokwane City","South Africa",0.5,1.8,15.5
+"595",595,"RGV Toros","RGV Toros","USA",0.5,2,14.9
+"596",596,"Virtus Entella","Virtus Entella","Italy",0.5,2,14.5
+"597",597,"Northampton","Northampton","England",0.5,2,14.2
+"598",598,"Chippa United","Chippa United","South Africa",0.3,1.5,13.9
+"599",599,"Charleston","Charleston","USA",0.5,2.1,13.9
+"600",600,"Mansfield Town","Mansfield Town","England",0.5,2,13.8
+"601",601,"AmaZulu","AmaZulu","South Africa",0.3,1.7,13.5
+"602",602,"Swindon Town","Swindon Town","England",0.7,2.5,13.4
+"603",603,"Oldham Athletic","Oldham Athletic","England",0.8,2.6,13.2
+"604",604,"Baroka","Baroka","South Africa",0.2,1.6,12.8
+"605",605,"Plymouth Argyle","Plymouth Argyle","England",0.5,2.3,12.7
+"606",606,"Hartford Athletic","Hartford Athletic","USA",0.5,2.3,12.6
+"607",607,"Oakland Roots","Oakland Roots","USA",0.5,2.2,12.6
+"608",608,"Yokohama FC","Yokohama FC","Japan",0.5,2.2,12.5
+"609",609,"Carlisle United","Carlisle United","England",0.4,2,12.3
+"610",610,"Stellenbosch","Stellenbosch","South Africa",0.4,1.9,12.3
+"611",611,"Newport County","Newport County","England",0.3,1.8,12.1
+"612",612,"Black Leopards","Black Leopards","South Africa",0.4,2,11.8
+"613",613,"LA Galaxy II","LA Galaxy II","USA",0.6,2.4,11.5
+"614",614,"Oklahoma City","Oklahoma City","USA",0.4,2.1,11.4
+"615",615,"Port Vale","Port Vale","England",0.4,2.1,11.2
+"616",616,"Tacoma Defiance","Tacoma Defiance","USA",0.5,2.3,10.9
+"617",617,"Tranmere Rovers","Tranmere Rovers","England",0.3,2,10.9
+"618",618,"Forest Green","Forest Green","England",0.4,2.2,10.8
+"619",619,"Atlanta United 2","Atlanta United 2","USA",0.5,2.4,10.7
+"620",620,"Real Monarchs","Real Monarchs","USA",0.4,2.2,10.6
+"621",621,"Bristol Rovers","Bristol Rovers","England",0.3,2,10.1
+"622",622,"Stevenage","Stevenage","England",0.2,1.8,9.9
+"623",623,"Sporting KC II","Sporting KC II","USA",0.4,2.4,9.7
+"624",624,"Barrow","Barrow","England",0.3,2.2,9.6
+"625",625,"Las Vegas Lights","Las Vegas Lights","USA",0.5,2.5,9.5
+"626",626,"Leyton Orient","Leyton Orient","England",0.3,2.2,9.1
+"627",627,"Crawley Town","Crawley Town","England",0.4,2.3,9
+"628",628,"Loudoun United","Loudoun United","USA",0.4,2.4,8.8
+"629",629,"Bradford City","Bradford City","England",0.2,2,8.4
+"630",630,"Southend United","Southend United","England",0.2,2,8.3
+"631",631,"Walsall","Walsall","England",0.2,2,8.1
+"632",632,"Harrogate Town","Harrogate Town","England",0.3,2.4,8.1
+"633",633,"Colchester","Colchester","England",0.2,2.1,7.4
+"634",634,"NY Red Bulls II","NY Red Bulls II","USA",0.4,2.6,7.2
+"635",635,"Grimsby Town","Grimsby Town","England",0.2,2.3,6.4
+"636",636,"Scunthorpe","Scunthorpe","England",0.2,2.4,6
